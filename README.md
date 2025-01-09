@@ -42,7 +42,7 @@ I will probably feel confused. Probably fail a few times. But I think it will be
   - https://ldbeth.sdf.org/cltl2.html - full PDF copy of the book available here
   - Physical copy obtained for this as well
 - Video Lectures for the MIT course "Structure and Interpretation of Computer Programs" originally recorded within MIT: The https://video.infosec.exchange/c/sicp_lectures/videos
-  - Alteratively, you can find downloadable links for all these videos from here: https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/download/
+  - Alteratively, you can find downloadable links for all these videos from here: `wget -r -l1 -H -nd -A mp4 -e robots=off https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/download/`
 - Land of Lisp: Learn to Program in Lisp, One Game at a Time!: https://nostarch.com/lisp.htm
   - Physical copy and ePub of this book has been acquired
 - MIT GNU Scheme documentation: https://www.gnu.org/software/mit-scheme/documentation/stable/mit-scheme-user/index.html
