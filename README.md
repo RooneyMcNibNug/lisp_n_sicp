@@ -32,4 +32,4 @@ I will probably feel confused. Probably fail a few times. But I think it will be
 
 ### RESOURCES
 
-- 
+- MIT Gnu Scheme documentation: https://www.gnu.org/software/mit-scheme/documentation/stable/mit-scheme-user/index.html
