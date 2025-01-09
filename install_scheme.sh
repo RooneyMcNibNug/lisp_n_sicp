@@ -14,7 +14,7 @@ fi
 
 # Install dependencies
 echo "Installing dependencies..."
-dnf upgrade
+dnf upgrade -y
 dnf install -y gcc make m4 ncurses-devel
 
 # Find the latest version of MIT Scheme
