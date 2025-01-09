@@ -32,4 +32,17 @@ I will probably feel confused. Probably fail a few times. But I think it will be
 
 ### RESOURCES
 
-- MIT Gnu Scheme documentation: https://www.gnu.org/software/mit-scheme/documentation/stable/mit-scheme-user/index.html
+- _Structure and Interpretation of Computer Programs_ by Abelson, Sussman, and Sussman 
+-   https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html - full book and supplimentary resources here!
+-   If you want to use an eReader, there was a crowdsourced conversion of an ePub3 file for this here, but YMMV on rendering that: https://github.com/sarabander/sicp?tab=readme-ov-file#sicp
+-   Physical book obtainwed as well 
+- _Instructor's Manual t/a Structure and Interpretation of Computer Programs, second edition_ by Abelson, Sussman, and Sussman: https://mitpress.mit.edu/9780262692205/instructors-manual-ta-structure-and-interpretation-of-computer-programs/
+-   Physical copy has been acquired here as well
+- _Common LISP: The Language_ by Guy L. Steele
+- https://ldbeth.sdf.org/cltl2.html - full PDF copy of the book available here
+-   Physical copy obtained for this as well
+- Video Lectures for the MIT course "Structure and Interpretation of Computer Programs" originally recorded within MIT: The https://video.infosec.exchange/c/sicp_lectures/videos
+-   Alteratively, you can find downloadable links for all these videos from here: https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/download/
+- Land of Lisp: Learn to Program in Lisp, One Game at a Time!: https://nostarch.com/lisp.htm
+-   Physical copy and ePub of this book has been acquired
+- MIT GNU Scheme documentation: https://www.gnu.org/software/mit-scheme/documentation/stable/mit-scheme-user/index.html
