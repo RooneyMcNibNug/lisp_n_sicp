@@ -1,4 +1,4 @@
-# lisp_n_sicp
+# Lisp 'n SICP
 
 ### PREFACE
 
