@@ -1,22 +1,27 @@
 # Lisp 'n SICP
 
+
+![liscp](https://github.com/user-attachments/assets/61934688-8502-4906-98a9-8c4b0242c445)
+
 ### PREFACE
 
 I never went to school for "computer science". At the university I majored in journalism and poli-sci.
 
-Fast forward, many years later, doing tons of sysadmin work. Working pretty consistently on wrangling data, machines, pushing down with things like bash, powershell, ansible, chef, and eventually some perl.
+Fast forward, many years later, doing lost of sysadmin work. Working pretty consistently on wrangling data, machines, pushing down with things like bash, powershell, ansible, chef, and eventually some perl.
 
-But there is a spark inside me for really diving into fundamental pieces of programming, and looking at something different.
+But there is a spark inside me for really diving into fundamental pieces of programming, and looking at something different. Making progress still, but not really chewing at certain things I feel I am missing..
 
-Over the holidays I randomly threw myself into some rabbitholes pertaining to the Lisp programming language - I randomly find some heavy emacs users on Mastodon and people developing indie games. When I look at their lisp, scheme, clojure code something sparks there - a desire to learn more.
+This continues still as a dabble more with IaC, scripting, database interactivity, etc.
 
-I buy somehwat chewed-up copy old copy of a Lisp book by Guy Steele (more on this later). Its perplexing fuel. I start getting my hands dirty with the CLISP REPL. 
+Over the holidays this year, I randomly threw myself into some rabbitholes pertaining to the Lisp programming language. This was not a plan or anything, I randomly found some heavy emacs users on Mastodon and people developing indie games. When I look at their lisp, scheme, Clojure code something sparks there - desire to know more intsifies.
 
-But I want to pair this with something larger - a deeper understanding of this type of programming. 
+I buy somehwat chewed-up copy old copy of a Lisp book by Guy Steele (more on this later). Its perplexing. I start getting my hands dirty with the CLISP REPL. 
+
+But I want to pair this with something larger - a deeper understanding of things.
 
 It turns out there are some really great resources for this that use Lisp as their examples.
 
-And so I formulate a plan..
+And so I have forumlated a bit of a study plan for this year:
 
 ### AGENDA
 
