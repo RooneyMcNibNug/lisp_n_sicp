@@ -19,11 +19,11 @@ echo "Finding latest MIT Scheme version..."
 LATEST_VERSION=$(wget -qO- "https://ftp.gnu.org/gnu/mit-scheme/stable.pkg/" | grep -oP 'href="\K[^"]*' | grep -E '^[0-9]+\.[0-9]+' | sort -V | tail -n 1)
 
 # Build URL based off of latest ver found
-SCHEME_TARBALL="https://ftp.gnu.org/gnu/mit-scheme/stable.pkg/${LATEST_VERSION}mit-scheme-${LATEST_VERSION}-x86-64.tar.gz
+SCHEME_TARBALL="https://ftp.gnu.org/gnu/mit-scheme/stable.pkg/${LATEST_VERSION}mit-scheme-${LATEST_VERSION%/}-x86-64.tar.gz"
 
 # Download the source tar file
 if [ ! -f "mit-scheme-${LATEST_VERSION}.tar.gz" ]; then
-    echo "Downloading MIT Scheme $LATEST_VERSION..."
+    echo "Downloading MIT Scheme ${LATEST_VERSION%/}..."
     wget "$SCHEME_TARBALL" -O "mit-scheme.tar.gz"
 fi
 
@@ -32,7 +32,7 @@ echo "Extracting tarball..."
 tar -xzf "mit-scheme.tar.gz"
 
 # Change into the src dir and configure, build
-cd "mit-scheme/src"
+cd "mit-scheme-${LATEST_VERSION%/}/src"
 echo "Configuring and Building..."
 ./configure
 make
